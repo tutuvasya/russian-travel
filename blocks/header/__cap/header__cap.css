@@ -1,0 +1,5 @@
+.header__cap {
+    display: flex;
+    min-width: 90%;
+    justify-content: space-between;
+}
