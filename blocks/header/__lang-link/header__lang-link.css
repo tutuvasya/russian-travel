@@ -1,11 +1,20 @@
-.header__lang-link {
+/* .header__lang-link {
     color: white;
     position: relative;
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
     justify-self: flex-end;
+    text-decoration: none;
+} */
+
+.header__lang-link[type="radio"] {    
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
 }
-.header__lang-link:first-of-type {
-    margin-right: 18px;
+.header__lang-link[type="radio"]:checked + .header__lang-link_visible {
+    text-decoration-line: underline;
 }

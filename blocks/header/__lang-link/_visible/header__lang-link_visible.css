@@ -1,0 +1,19 @@
+.header__lang-link_visible {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    justify-self: flex-end;
+    text-decoration: none;
+    margin: 0;
+}
+.header__lang-link_visible:nth-of-type(1) {
+    margin-right: 18px;
+}
+@media (max-width: 767px) {
+    .header__lang-link_visible {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,6 @@
+.cover__link-text {
+    opacity: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

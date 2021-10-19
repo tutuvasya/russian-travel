@@ -6,7 +6,7 @@
   <meta name="author" content="Вася Гудков">
   <meta name="description" content="Третья проектная работа">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <link rel="stylesheet" href="./vendor/Inter/Inter Web/inter.css"/>
+  <link rel="stylesheet" href="./vendor/Inter/Inter_Web/inter.css"/>
   <link rel="stylesheet" href="./pages/index.css" />
   <title>Путешествия по России</title>
 
@@ -16,9 +16,19 @@
         
         <header class="header">            
             <img class="header__logo" alt="Россия" src="./images/__logo.png">
+            <!-- <div class="header__lang-links">
+                <a class="header__lang-link" href="#">Ru</a>
+                <a class="header__lang-link" href="#">En</a>
+            </div> -->
             <div class="header__lang-links">
-                <a class="header__lang-link">Ru</a>
-                <a class="header__lang-link">En</a>
+                <label for="ru">
+                    <input class="header__lang-link" type="radio" name="language" id="ru" value="ru">
+                    <span class="header__lang-link_visible">Ru</span>
+                </label>
+                <label for="en">
+                    <input class="header__lang-link" type="radio" name="language" id="en" value="en">
+                    <span class="header__lang-link_visible">En</span>
+                </label>
             </div>
         </header>
 
@@ -58,7 +68,7 @@
                 <img class="photo-grid__image" alt="" src="./images/photo-grid__mountain.jpg">
                 <img class="photo-grid__image" alt="" src="./images/photo-grid__precipice.jpg">
                 <img class="photo-grid__image" alt="" src="./images/photo-grid__fog.jpg">
-
+                
             </section>
             <section class="places">
                 <div class="place">
@@ -129,10 +139,12 @@
                 </div>
             </section>
             <section class="cover">
-                <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">            
-                    <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-                </a>               
+                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                               
+                        <h2 class="cover__title">До Байкала «на собаках»</h2>
+                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                    
+                </a>    
             </section>
         <!-- </main> -->
 

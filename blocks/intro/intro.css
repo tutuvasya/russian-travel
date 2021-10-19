@@ -3,3 +3,8 @@
     flex-direction: column;
     grid-area: intro;
 }
+@media (max-width: 767px) {
+    .intro {
+        padding: 0 16px;
+    }
+}

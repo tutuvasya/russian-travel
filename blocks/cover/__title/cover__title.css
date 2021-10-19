@@ -8,8 +8,8 @@
     text-align: center;
     color: white;
     text-align: center;
-    opacity: unset;
 }
+
 @media (max-width: 767px) {
     .cover__title {
         font-size: 32px;

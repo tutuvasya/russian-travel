@@ -1,4 +1,4 @@
-.footer__link {
+.footer__link {    
     color: white;
     margin: 0;
     padding: 0;
@@ -6,7 +6,12 @@
     font-size: 16px;
     line-height: 1.125;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: none;    
+    transition-timing-function: linear;
+    transition-duration: .4s;
+}
+.footer__link:hover {
+    opacity: .8;
 }
 
 @media (max-width: 767px) {
