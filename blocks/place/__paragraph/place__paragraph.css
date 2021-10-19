@@ -1,0 +1,21 @@
+.place__paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 484px;
+}
+@media (max-width: 1279px) {
+    .place__paragraph {
+        width: 456px;
+    }
+}
+@media (max-width: 1023px) {
+    .place__paragraph {
+        width: 352px;
+    }
+}
+@media (max-width: 767px) {
+    .place__paragraph {
+        width: 288px;
+        padding: 0 16px;
+    }
+}

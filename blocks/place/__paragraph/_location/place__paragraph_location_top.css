@@ -1,0 +1,21 @@
+.place__paragraph_location_top {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.63;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 26px;
+    grid-area: place__paragraph_location_top;    
+}
+
+@media (max-width: 1023px) {
+    .place__paragraph_location_top {
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .place__paragraph_location_top {
+        font-size: 16px;
+    }
+}

@@ -1,6 +1,39 @@
 .page {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background-color: #2A2C2F;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-columns: 100px minmax(min-content, max-content) 100px;
+    grid-template-rows: repeat(7, minmax(min-content, max-content));
+    grid-template-areas: 
+    "header header header"
+    ". lead ."
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". places ."
+    "coverr coverr coverr"
+    "footer footer footer";
+    row-gap: 92px;
+}
+@media (max-width: 1279px) {
+    .page {
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-template-rows: repeat(7, minmax(min-content, max-content));
+    }
+}
+@media (max-width: 1023px) {
+    .page {
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-template-rows: repeat(7, minmax(min-content, max-content));
+        row-gap: 88px;
+    }
+}
+@media (max-width: 767px) {
+    .page {
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-template-rows: repeat(7, max-content);
+        row-gap: 64px;
+    }
 }

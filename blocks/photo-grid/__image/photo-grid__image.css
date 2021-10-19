@@ -1,0 +1,21 @@
+.photo-grid__image {
+    object-fit: contain;
+}
+@media (max-width: 1279px) {
+    .photo-grid__image {
+        width: 300px;
+        height: 225px;
+    }
+}
+@media (max-width: 1023px) {
+    .photo-grid {
+        width: 352px;
+        height: 264px;
+    }
+}
+@media (max-width: 767px) {
+    .photo-grid {
+        width: calc(100vw*.9);
+        height: calc(100vw*.675);
+    }
+}
