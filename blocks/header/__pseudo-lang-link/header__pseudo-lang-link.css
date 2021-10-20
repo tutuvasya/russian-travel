@@ -6,17 +6,13 @@
     justify-self: flex-end;
     text-decoration: none;
     margin: 0;
+    cursor: pointer;
 }
-/* .header__pseudo-lang-link:first-of-type {
-    margin-right: 18px;
-} */
+
 @media (max-width: 767px) {
     .header__pseudo-lang-link {
         font-size: 18px;
         line-height: 20px;
         font-weight: 400;
     }
-}
-#rus {
-    margin-right: 18px;
 }

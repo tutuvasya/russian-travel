@@ -1,3 +1,6 @@
 .header__lang-links {
-    /* display: flex; */
+    display: flex;
+}
+.header__lang-links :first-child :last-child {
+    margin-right: 18px;
 }

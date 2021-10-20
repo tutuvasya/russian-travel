@@ -1,4 +1,4 @@
-.page {
+/* .page {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -51,12 +51,16 @@
         grid-template-rows: repeat(7, max-content);
         row-gap: 64px;
     }
-}
+} */
 
-/* .page {
+.page {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background-color: #2A2C2F;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+    width: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering:optimizeLegibility;
+}
