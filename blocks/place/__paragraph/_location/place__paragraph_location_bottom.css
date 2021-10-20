@@ -2,10 +2,7 @@
     grid-area: place__paragraph_location_bottom;
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    line-height: 1.63;
     color: white;
-    font-weight: 400;
 }
 
 @media (max-width: 1023px) {

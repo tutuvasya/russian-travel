@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     width: 484px;
+    font-size: 18px;
+    line-height: 1.63;
+    font-weight: 400;
 }
 @media (max-width: 1279px) {
     .place__paragraph {
