@@ -1,6 +1,19 @@
 .lead {
+    margin: 0 auto;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: lead;
+    grid-area: lead;    
+}
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 90.625%;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
 }

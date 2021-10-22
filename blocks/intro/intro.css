@@ -1,17 +1,30 @@
 .intro {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     grid-area: intro;
-    width: 690px;
-}
-@media (max-width: 767px) {
-    .intro {
-        width: 288px;
-        padding: 0 16px;
-    }
+    width: 984px;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 92px 0;
 }
 @media (max-width: 1023px) {
     .intro {
-        width: 720px;
+        max-width: 90.625%;
+        padding: 88px 0;
+    }
+}
+@media (max-width: 768px) {
+    .intro {
+        max-width: 93.75%;
+    }
+}
+@media (max-width: 320px) {
+    .intro {
+        max-width: 90%;
+    }
+}
+@media (max-width: 767px) {
+    .intro {
+        padding: 62px 0;
     }
 }
