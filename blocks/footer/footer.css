@@ -6,11 +6,11 @@
     justify-content: space-between;
     padding: 92px 0 24px;
 }
-@media (max-width: 767px) {
+
+
+@media (max-width: 1279px) {
     .footer {
-        width: 90%;
-        flex-direction: column;
-        padding: 64px 0 24px;
+        width: 90.625%;
     }
 }
 @media (max-width: 1023px) {
@@ -19,8 +19,10 @@
         padding: 88px 0 24px;
     }
 }
-@media (max-width: 1279px) {
+@media (max-width: 767px) {
     .footer {
-        width: 90.625%;
+        width: 90%;
+        flex-direction: column;
+        padding: 64px 0 24px;
     }
 }

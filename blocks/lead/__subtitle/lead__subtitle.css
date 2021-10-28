@@ -27,8 +27,6 @@
 @media (max-width: 500px) {
     .lead__subtitle {
         font-size: 4.5vw;
-        margin-top: 4.2vw;
-        margin-bottom: 10vw;
     }
 }
 @media (max-width: 320px) {

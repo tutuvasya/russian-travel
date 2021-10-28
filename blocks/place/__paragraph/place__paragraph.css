@@ -1,10 +1,15 @@
 .place__paragraph {
-    display: flex;
-    flex-direction: column;
+    margin-top: 0;
+    color: white;
     width: 100%;
     font-size: 18px;
     line-height: 1.63;
     font-weight: 400;
+    margin-bottom: 26px;
+    grid-column: 2;
+}
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
 }
 /* @media (max-width: 1279px) {
     .place__paragraph {
@@ -16,9 +21,18 @@
         width: 352px;
     }
 } */
+@media (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
 @media (max-width: 767px) {
     .place__paragraph {
-        width: 93.75%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto 26px;
+        grid-column: 1;        
+    }
+    .place__paragraph:first-of-type {
+        margin-top: 32px;
     }
 }

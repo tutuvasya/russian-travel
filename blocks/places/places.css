@@ -1,5 +1,4 @@
 .places {
-    position: relative;
     display: flex;
     flex-direction: column;
     grid-area: places;
@@ -12,19 +11,16 @@
         max-width: 90.625%;
     }
 }
+
+@media (max-width: 1023px) {
+    .places {
+        max-width: 93.75%;
+        padding: 88px 0;
+    }
+}
 @media (max-width: 767px) {
     .places {
         max-width: 100%;
         padding: 64px 0;
-    }
-}
-@media (max-width: 320px) {
-    .places {
-        width: 100%;
-    }
-}
-@media (max-width: 1023px) {
-    .places {
-        padding: 88px 0;
     }
 }

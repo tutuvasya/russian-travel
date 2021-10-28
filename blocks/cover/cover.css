@@ -1,6 +1,6 @@
 .cover {
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     grid-area: coverr;
@@ -17,12 +17,12 @@
 @media (max-width: 1279px) {
     .cover {
         width: 90.625%;
-        height: 57.8125vw;
+        min-height: 57.8125vw;
     }
 }
 @media (max-width: 1024px) {
     .cover {
         width: 100%;
-        height: 62.5vw;
+        min-height: 62.5vw;
     }
 }
